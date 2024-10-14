@@ -14,7 +14,7 @@ Descargue el contenido de este repositorio:
 
 1. Instale un ambiente virtual en su computadora
 2. Inicialice el ambiente virtual con el nombre extra_task
-3. Instale con pip los requerimientos del archivo requirements.txt
+3. Instale con pip los requerimientos del archivo requirements.txt (debe utilizar el archivo directamente con pip, investigue como hacerlo)
 4. Siga los siguientes pasos:
 
 ```
