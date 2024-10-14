@@ -1,6 +1,6 @@
 # Example Python Flask Crud
 
- Simple example python flask crud app for sqlite.
+Simple CRUD para el curso de Python
  
 ## Screenshots
 
@@ -8,44 +8,32 @@
 ![image](screenshots.png)  
  
  
-### Installing (for linux)
+### Installing
 
-open the terminal and follow the white rabbit.
+Descargue el contenido de este repositorio:
 
+Instale un ambiente virtual en su computadora
+Inicialice el ambiente virtual
+Instale con pip los requerimientos del archivo requirements.txt
+Siga los siguientes pasos:
 
-```
-git clone https://github.com/gurkanakdeniz/example-flask-crud.git
-```
-```
-cd example-flask-crud/
-```
-```
-python3 -m venv venv
-```
-```
-source venv/bin/activate
-```
-```
-pip install --upgrade pip
-```
-```
-pip install -r requirements.txt
-```
-```
-export FLASK_APP=crudapp.py
-```
 ```
 flask db init
 ```
+
 ```
 flask db migrate -m "entries table"
 ```
+
 ```
 flask db upgrade
 ```
+
 ```
 flask run
 ```
+
+Valide en su navegador que pueda accesar a la aplicación.
 
 ## License
 
